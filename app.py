@@ -344,6 +344,39 @@ if orders_file and customers_file:
 
 else:
     st.info("👆 Upload both CSV files above to get started.")
+
+    st.divider()
+    
+    st.subheader("What is RFM?")
+    st.markdown("""
+    **RFM** is a standard marketing analytics technique that scores each customer on three dimensions:
+    
+    | Dimension | What it measures | Better score means... |
+    |---|---|---|
+    | **R**ecency | Days since last purchase | Bought more recently |
+    | **F**requency | Total number of orders | Orders more often |
+    | **M**onetary | Total amount spent | Spends more |
+    
+    Each customer gets a score of 1–3 on each dimension and is assigned to one of seven segments:
+    """)
+
+    col1, col2 = st.columns(2)
+    with col1:
+        st.markdown("""
+        - 🟢 **Champion** — recent, frequent, high spend
+        - 🟢 **Loyal** — regular repeat buyers  
+        - 🔵 **Promising** — recent but not yet frequent
+        - 🩵 **New Customer** — bought recently for the first time
+        """)
+    with col2:
+        st.markdown("""
+        - 🟠 **Needs Attention** — lapsed with low spend
+        - 🔴 **At Risk** — valuable but haven't bought recently
+        - ⚪ **Lost** — one-time or very lapsed buyers
+        """)
+    
+    st.divider()
+    
     st.markdown("""
     ### What this dashboard does
     - Automatically cleans and merges your Wix exports
