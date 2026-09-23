@@ -147,6 +147,6 @@ MIT License — free to use, modify, and distribute.
 
 Research & Marketing Intern at building new hope, Summer 2026
 
-*Built as part of a data analytics internship project analyzing coffee sales data for a nonprofit organization. The RFM segmentation logic, fuzzy matching pipeline, and Streamlit dashboard were designed and implemented from scratch using Python and pandas.*
+*Built as part of my Research & Analytics internship with Building New Hope, a Pittsburgh nonprofit. The project analyzes coffee sales and customer data using RFM segmentation and fuzzy record matching, with an interactive Streamlit dashboard for exploring customer segments and generating targeted outreach lists.*
 
 > ⭐ **Found this useful? A GitHub star goes a long way — thank you!**
